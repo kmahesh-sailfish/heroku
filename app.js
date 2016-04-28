@@ -7,7 +7,7 @@ var express = require('express');
 var app = express();
 
 
-app.get('/',function(req,res){
+app.get('/sample',function(req,res){
     res.send("hai");
 });
 app.listen(3500,function(){
